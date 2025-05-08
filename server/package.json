@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon app/index.js",
+    "dev": "nodemon app/server.js",
     "start": "node app/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +20,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "fs": "^0.0.1-security",
+    "html-pdf": "^3.0.1",
     "jsonwebtoken": "^9.0.2",
     "libreoffice-convert": "^1.6.0",
     "mammoth": "^1.9.0",

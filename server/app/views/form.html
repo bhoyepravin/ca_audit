@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICAI Peer Review Application Form</title>
+    <style>
+      body {
+        font-family: "Arial Narrow", sans-serif;
+        font-size: 15px;
+        line-height: 13.5pt;
+        margin: 0;
+        padding: 20px;
+      }
+      .form-container {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .text-justify {
+        text-align: justify;
+      }
+      .form-title {
+        margin-top: 4.9pt;
+        margin-bottom: 6pt;
+        margin-left: 12.3pt;
+        text-indent: -12.3pt;
+      }
+      .underline {
+        text-decoration: underline;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 10px 0;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+      th,
+      td {
+        padding: 5px;
+        vertical-align: top;
+      }
+      th {
+        background-color: #d9d9d9;
+        text-align: center;
+      }
+      input[type="text"],
+      input[type="email"],
+      input[type="date"] {
+        border: none;
+        border-bottom: 1px solid black;
+        font-family: "Arial Narrow", sans-serif;
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+      }
+      input[type="checkbox"] {
+        margin-right: 5px;
+      }
+      .dotted-field {
+        border-bottom: 1px dotted black;
+        min-width: 200px;
+        display: inline-block;
+      }
+      ol {
+        padding-left: 20px;
+      }
+      ol.lower-roman {
+        list-style-type: lower-roman;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-container">
+      <p class="form-title"><strong>FORM 1</strong></p>
+      <p class="text-center">
+        <strong
+          >APPLICATION CUM QUESTIONNAIRE TO BE SUBMITTED BY<br />PRACTICE
+          UNIT</strong
+        >
+      </p>
+      <p class="text-center">
+        <strong
+          >[<em>As per</em>
+          <em
+            >Clause 6(1) &amp; 6 (2) of the Peer Review Guidelines 2022]</em
+          ></strong
+        >
+      </p>
+      <p><strong>&nbsp;</strong></p>
+      <p><strong>The Secretary, Peer Review Board,</strong></p>
+      <p>
+        <strong>The Institute of Chartered Accountants of India,&nbsp;</strong>
+      </p>
+      <p><strong>ICAI Bhawan,</strong></p>
+      <p><strong>Post Box No. 7100,</strong></p>
+      <p><strong>Indraprastha Marg, New Delhi – 110002&nbsp;</strong></p>
+      <p><strong>&nbsp;</strong></p>
+      <p class="text-center"><strong>APPLICATION</strong></p>
+      <p class="text-center"><strong>&nbsp;</strong></p>
+      <p>Dear Sir,</p>
+      <p class="text-center">
+        <strong
+          ><s><span style="text-decoration: none">&nbsp;</span></s></strong
+        >
+      </p>
+
+      <form id="peerReviewForm">
+        <ol>
+          <li>
+            Our Firm
+            <input
+              type="text"
+              name="firmName"
+              placeholder="Name of practice unit as per ICAI Records"
+              required
+            />
+            ; FRN/ M. No
+            <input
+              type="text"
+              name="firmRegNumber"
+              placeholder="Firm Registration Number/ Mem. No."
+              required
+            />
+            would like to apply for Peer Review for the period from
+            <input type="date" name="reviewStartDate" required /> to
+            <input type="date" name="reviewEndDate" required /> (three preceding
+            financial years from the date of application). We have gone through
+            the Peer Review Guidelines 2022 hosted at
+            <a
+              href="https://resource.cdn.icai.org/72010prb57960-peer-review-guidelines2022.pdf"
+              >https://resource.cdn.icai.org/72010prb57960-peer-review-guidelines2022.pdf</a
+            >
+            and undertake to abide by the same.
+          </li>
+
+          <li>
+            I/We hereby declare that my/our firm is applying for Peer Review
+            (Tick the applicable clause):
+            <ol class="lower-roman">
+              <li>
+                <input type="checkbox" name="applyReason" value="mandatory" />
+                As it is Mandatory by: ICAI Any other Regulator (please specify)
+                <input type="text" name="otherRegulator" />
+              </li>
+              <li>
+                <input type="checkbox" name="applyReason" value="voluntary" />
+                Voluntarily:
+              </li>
+              <li>
+                <input type="checkbox" name="applyReason" value="specialCase" />
+                As a special case Review initiated by the Board:
+              </li>
+              <li>
+                <input type="checkbox" name="applyReason" value="newUnit" /> New
+                Unit:
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  name="applyReason"
+                  value="boardDecision"
+                />
+                As per decision of the Board:
+              </li>
+            </ol>
+          </li>
+
+          <li>
+            I/We hereby declare that my/our firm has signed reports pertaining
+            to the following assurance services during the period under review:
+          </li>
+        </ol>
+
+        <table>
+          <tr>
+            <th>S. No.</th>
+            <th>Type of Assurance service rendered</th>
+            <th>
+              Major type of Client <u>(please specify)</u> (e.g.: Banks;
+              Insurance Company; Manufacturing; Individuals; Trading ; any other
+              )
+            </th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Central Statutory Audit</td>
+            <td><input type="text" name="clientType1" /></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Statutory Audit</td>
+            <td><input type="text" name="clientType2" /></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Internal Audit</td>
+            <td><input type="text" name="clientType3" /></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Tax Audit</td>
+            <td><input type="text" name="clientType4" /></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Concurrent Audit</td>
+            <td><input type="text" name="clientType5" /></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Certification work</td>
+            <td><input type="text" name="clientType6" /></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>
+              Any other, please specify
+              <input type="text" name="otherService" />
+            </td>
+            <td><input type="text" name="clientType7" /></td>
+          </tr>
+        </table>
+
+        <ol start="4">
+          <li>
+            I / We hereby declare that my/ our firm
+            <label
+              ><input type="radio" name="hasConducted" value="yes" /> has
+              conducted</label
+            >
+            <label
+              ><input type="radio" name="hasConducted" value="no" /> has not
+              conducted</label
+            >
+            Statutory Audit of enterprises Listed in India or abroad as defined
+            under SEBI LODR, 2015 during the Review Period.
+          </li>
+
+          <li>
+            Option for appointment of Reviewer: (Tick appropriate option)
+            <ol class="lower-roman">
+              <li>
+                <input type="checkbox" name="reviewerOption" value="sameCity" />
+                Same City
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  name="reviewerOption"
+                  value="outsideCity"
+                />
+                From outside City
+              </li>
+              <li>
+                <input type="checkbox" name="reviewerOption" value="either" />
+                Either option (i) or (ii)
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  name="reviewerOption"
+                  value="preferredCity"
+                />
+                Preferred City in case of option (ii)
+                <input type="text" name="preferredCity" />
+              </li>
+            </ol>
+          </li>
+
+          <li>
+            Mail Id for communication with the Practice unit
+            <input type="email" name="communicationEmail" required />
+          </li>
+
+          <li>
+            Address for sending the Peer Review Certificate<br />
+            <textarea
+              name="certificateAddress"
+              rows="4"
+              style="
+                width: 100%;
+                border: 1px solid black;
+                font-family: Arial Narrow;
+                font-size: 15px;
+              "
+              required
+            ></textarea>
+          </li>
+        </ol>
+
+        <p
+          style="
+            text-align: center;
+            text-decoration: underline;
+            margin-top: 20px;
+          "
+        >
+          <strong>Further Information to be submitted by New Unit</strong>
+        </p>
+
+        <div style="text-align: center; margin-top: 30px">
+          <button
+            type="submit"
+            style="
+              padding: 10px 20px;
+              background-color: #006600;
+              color: white;
+              border: none;
+              cursor: pointer;
+            "
+          >
+            Generate PDF
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <script>
+      document
+        .getElementById("peerReviewForm")
+        .addEventListener("submit", async (e) => {
+          e.preventDefault();
+
+          const formData = new FormData(e.target);
+          const data = Object.fromEntries(formData.entries());
+
+          // Handle checkbox groups
+          data.applyReason = Array.from(
+            document.querySelectorAll('input[name="applyReason"]:checked')
+          ).map((cb) => cb.value);
+          data.reviewerOption = Array.from(
+            document.querySelectorAll('input[name="reviewerOption"]:checked')
+          ).map((cb) => cb.value);
+
+          try {
+            const response = await fetch("/generate-pdf", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(data),
+            });
+
+            if (!response.ok) {
+              throw new Error("PDF generation failed");
+            }
+
+            const blob = await response.blob();
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = "ICAI_Peer_Review_Application.pdf";
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            a.remove();
+          } catch (error) {
+            console.error("Error:", error);
+            alert("Failed to generate PDF. Please try again.");
+          }
+        });
+    </script>
+  </body>
+</html>
